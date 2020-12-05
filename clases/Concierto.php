@@ -17,7 +17,7 @@ class Concierto
     $filas = $listado->fetchAll();
     echo '<pre>';
     // var_dump($filas);
-    echo '<table border=2>
+    echo '<table class="centrado">
             <tr>
               <td colspan=3>N&Uacute;MERO DE ENTRADAS DISPONIBLES</td>
             </tr>
