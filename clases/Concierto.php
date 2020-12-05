@@ -17,6 +17,7 @@ class Concierto
     $filas = $listado->fetchAll();
     echo '<pre>';
     // var_dump($filas);
+    echo $filas['Num_Plazas_grada'];
     echo '</pre>';
   }
   public function entradas_libres($con, $grada, $pista_golden, $pista)
