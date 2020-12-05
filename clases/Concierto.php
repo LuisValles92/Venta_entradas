@@ -16,7 +16,7 @@ class Concierto
     //$filas es un array asociativo con los registros de la consulta
     $filas = $listado->fetchAll();
     echo '<pre>';
-    var_dump($filas);
+    // var_dump($filas);
     echo '</pre>';
   }
   public function entradas_libres($con, $grada, $pista_golden, $pista)
