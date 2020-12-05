@@ -17,7 +17,7 @@ class Concierto
     $filas = $listado->fetchAll();
     echo '<pre>';
     // var_dump($filas);
-    echo $filas[0];
+    echo $filas[0][0];
     echo '</pre>';
   }
   public function entradas_libres($con, $grada, $pista_golden, $pista)
