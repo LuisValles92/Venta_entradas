@@ -17,7 +17,21 @@ class Concierto
     $filas = $listado->fetchAll();
     echo '<pre>';
     // var_dump($filas);
-    echo $filas[0][0];
+    echo '<table border=1>
+            <tr>
+              <td colspan=3>N&Uacute;MERO DE ENTRADAS DISPONIBLES</td>
+            </tr>
+            <tr>
+              <th>ASIENTOS EN GRADA</th>
+              <th>ASIENTOS GENERAL PISTA GOLDEN</th>
+              <th>ASIENTOS GENERAL PISTA</th>
+            </tr>
+            <tr>
+              <td>', $filas[0][0], '</td>
+              <td>', $filas[0][1], '</td>
+              <td>', $filas[0][2], '</td>
+            </tr>
+          </table>';
     echo '</pre>';
   }
   public function entradas_libres($con, $grada, $pista_golden, $pista)
