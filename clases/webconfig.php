@@ -1,5 +1,4 @@
 <?php
-define('DNS','mysql:dbname=conciertos;host=node29131-env-9961833.es-1.axarnet.cloud');
-define('USERNAME','root');  
-define('PASSWORD','NLVvie86415');
-?>
+define('DNS', 'mysql:dbname=conciertos;host=node29131-env-9961833.es-1.axarnet.cloud');
+define('USERNAME', 'root');
+define('PASSWORD', 'NLVvie86415');
