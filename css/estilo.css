@@ -1,26 +1,26 @@
 table,
 th,
 td {
-    border: 1px solid black;
+    border: 1px solid black !important;
 }
 
 .centrado {
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: auto !important;
+    margin-left: auto !important;
 }
 
 th {
-    background-color: red;
-    padding: 10px;
+    background-color: red !important;
+    padding: 10px !important;
 }
 
 tr {
-    background: gold;
+    background: gold !important;
 }
 
 td {
-    padding: 20px;
-    text-align: center;
+    padding: 20px !important;
+    text-align: center !important;
 }
 
 @font-face {
