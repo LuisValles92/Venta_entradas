@@ -8,9 +8,3 @@ CREATE  TABLE IF NOT EXISTS plazas (
      Num_Plazas_Pista int
    )ENGINE = InnoDB charset=utf8;
 insert into plazas values(100,25,50);
-
-
-
-
-
-

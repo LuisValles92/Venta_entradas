@@ -10,6 +10,36 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        /* border */
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        table {
+            margin-right: auto;
+            margin-left: auto;
+            width: 80%;
+        }
+
+        .verde,
+        th {
+            background-color: #24a69e;
+            font-weight: bold;
+        }
+
+        tr {
+            background: gold;
+        }
+
+        th,
+        td {
+            text-align: center;
+        }
+    </style>
     <script>
         (function($) {
             $(function() {

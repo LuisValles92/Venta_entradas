@@ -17,9 +17,9 @@ class Concierto
     $filas = $listado->fetchAll();
     echo '<pre>';
     // var_dump($filas);
-    echo '<table style="text-align:center;">
+    echo '<table>
             <tr>
-              <td colspan=3>N&Uacute;MERO DE ENTRADAS DISPONIBLES</td>
+              <td class="verde"; colspan=3>N&Uacute;MERO DE ENTRADAS DISPONIBLES</td>
             </tr>
             <tr>
               <th>ASIENTOS EN GRADA</th>
