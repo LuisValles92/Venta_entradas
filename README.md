@@ -1,6 +1,6 @@
 # Venta_entradas
 
 Enlace:
-http://env-9961833.es-1.axarnet.cloud
+http://ventaentradas.42web.io
 
-https://app.paas.axarnet.cloud
+https://app.infinityfree.net/login
