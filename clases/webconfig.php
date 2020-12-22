@@ -1,6 +1,7 @@
 <?php
-define('DNS', 'mysql:dbname=conciertos;host=node29131-env-9961833.es-1.axarnet.cloud');
 // define('DNS', 'mysql:dbname=conciertos;host=localhost');
-define('USERNAME', 'root');
+// define('USERNAME', 'root');
 // define('PASSWORD', '');
-define('PASSWORD', 'NLVvie86415');
+define('DNS', 'mysql:dbname=epiz_27503645_conciertos;host=sql200.epizy.com');
+define('USERNAME', 'epiz_27503645');
+define('PASSWORD', 'Tmi3dhOnNmkC');
