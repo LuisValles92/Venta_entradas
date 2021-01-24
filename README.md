@@ -1,5 +1,2 @@
 # Venta_entradas
-
-https://app.infinityfree.net/login
-
-http://ventaentradas.42web.io
+[Proveedor de alojamiento web](https://app.infinityfree.net/login) | [Enlace](http://ventaentradas.42web.io)
